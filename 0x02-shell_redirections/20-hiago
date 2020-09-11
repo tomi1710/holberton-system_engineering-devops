@@ -1,0 +1,2 @@
+#!/bin/bash
+emacs a | grep -vi "c" a > temp; mv temp a
