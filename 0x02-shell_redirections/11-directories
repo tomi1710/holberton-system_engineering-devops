@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa | head -n 2
+ls -lRa | awk "NR==2"
