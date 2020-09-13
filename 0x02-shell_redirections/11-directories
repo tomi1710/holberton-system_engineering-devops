@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa | awk "NR==2"
+ls -lRa | grep '^d'
