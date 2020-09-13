@@ -1,2 +1,2 @@
-B#!/bin/bash
-read -r | uniq -u list | wc -l
+#!/bin/bash
+sort | uniq -u list | wc -l
