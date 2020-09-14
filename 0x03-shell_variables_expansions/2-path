@@ -1,2 +1,2 @@
 #!/bin/bash
-cd | nano ~/.bashrc | export PATH="$HOME/action:$PATH"
+cd | nano ~/.bashrc | export PATH="$HOME:/action:$PATH"
