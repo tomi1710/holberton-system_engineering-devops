@@ -1,2 +1,2 @@
 #!/bin/bash
-pwd > a | cd $a | mkdir action
+export PATH="$HOME/action:$PATH"
