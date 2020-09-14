@@ -1,2 +1,2 @@
-#!/bin/bash
-echo $BINARY $bc
+B#!/bin/bash
+echo $BINARY | bc
