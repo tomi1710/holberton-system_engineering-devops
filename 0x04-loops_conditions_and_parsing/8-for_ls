@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 # displays the content of the current directory in a list format
 
-yourfilenames="ls ./*"
-for eachfile in $yourfilenames
+for eachfile in *
 do
    eachfile=$(echo "$eachfile" | cut -d'-' -f 2)
    echo "$eachfile"
