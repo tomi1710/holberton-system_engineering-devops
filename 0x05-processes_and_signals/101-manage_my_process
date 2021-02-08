@@ -13,10 +13,10 @@ then
     pkill -f manage_my_process.pid
 elif [[ $1 == "restart" ]]
 then
+    pkill -F manage_my_process.pid
     rm /var/run/my_process.pid
     ./manage_my_process &
     echo "manage_my_process restarted"
-    pkill -f manage_my_process.pid
 else
     echo "Usage: manage_my_process {start|stop|restart}"
 fi
